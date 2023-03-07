@@ -1,6 +1,11 @@
+.popup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container {
-  margin: 2rem;
-  
+  margin: 1rem;
 }
 
 h2 {
@@ -47,5 +52,9 @@ button:disabled {
 
 button:hover {
   background-color: #0069d9;
+}
+
+a {
+  color:cadetblue
 }
   
